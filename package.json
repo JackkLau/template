@@ -1,13 +1,13 @@
 {
-  "name": "test-template",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
     "webpack": "^5.48.0",
